@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0041)https://t1.chei.com.cn/axv/534729923.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>学信网</title>
+<script type="text/javascript">
+function json2str(o) {
+var arr = [];
+var fmt = function(s) {
+if (typeof s == 'object' && s != null) return json2str(s);
+return /^(string|number)$/.test(typeof s) ? "\"" + s + "\"" : s;
+}
+for (var i in o) arr.push("\"" + i + "\":" + fmt(o[i]));
+return '{' + arr.join(',') + '}';
+}
+  var advAreaId = "534729923";
+  // document.domain="chsi.com.cn";
+  function goo(curr,adv_id){
+	  curr.href = "http://axvert.chsi.com.cn/goo.action?aid=" + adv_id + "&evtype=adv_https:_yz.chsi.com.cn";
+	  return true;
+  }
+  function closeAxvert(){
+      var html_id = '534729923';
+      var o_c = json2str({'html_id':html_id,'close':true});
+      var supportPostMessage = 'postMessage' in window;
+      if ( supportPostMessage ){     window.top.postMessage( o_c, '*'); }
+      else {
+         var targetFunc = window.navigator['axvert_top'];
+            if ( typeof targetFunc == 'function' ) {
+                targetFunc(o_c, window);
+            } else {
+                throw new Error("target callback function is not defined");
+            }
+      }
+  }
+  function b_load(){
+		var _w = document.body.scrollWidth;
+		var _h = document.body.offsetHeight;
+		var html_id = '534729923';
+        // msg调整后顺序为：html_id,(close),width,height
+		var o_b = json2str({'html_id':html_id,'_w':_w,'_h':_h});
+
+		var supportPostMessage = 'postMessage' in window;
+		if ( supportPostMessage ){     window.top.postMessage( o_b, '*'); }
+		else {
+		 var targetFunc = window.navigator['axvert_top'];
+            if ( typeof targetFunc == 'function' ) {
+                targetFunc(o_b, window);
+            } else {
+                throw new Error("target callback function is not defined");
+            }
+          }
+
+  }
+  function c_load(){
+      setTimeout(b_load,200);
+  }
+</script>
+<style type="text/css">
+html,body{ margin:0px; padding:0px; border-width:0px;}
+body{ float:left;}
+ul,li{ list-style:none; margin:0; padding:0;}
+img{ border: 0; border-radius: 4px; transition: transform .5s; }
+a:hover img { transform: scale(1.1);}
+.slide_picwrap a:hover img { transform:none;}
+
+</style>
+<link rel="stylesheet" href="./iconfont.css">
+<script src="./ce.js.下载"></script>
+</head>
+<body onload="c_load()" escapejavascript="true" marginwidth="0" marginheight="0">
+<style type="text/css">#aa534720795{ width:102px;  height:320px; overflow:hidden; font-family: "微软雅黑","宋体"; font-size:12px;}#as534720796{  width:110px; height:300px; overflow:hidden; }</style><div id="aa534720795"><div id="as534720796"><div id="small_div" style="display:block"><a href="https://grs.cafuc.edu.cn/index.htm" target="_blank" onmousedown="goo(this, &#39;5311449679&#39;)" onblur="this.href=&#39;https://grs.cafuc.edu.cn/index.htm&#39;"><img src="./5311448521.jpg" width="36" height="300" border="0" onmouseover="document.getElementById(&#39;small_div&#39;).style.display=&#39;none&#39;;document.getElementById(&#39;full_div&#39;).style.display=&#39;block&#39;"></a></div><div id="full_div" style="display:none"><a href="https://grs.cafuc.edu.cn/index.htm" target="_blank" onmousedown="goo(this, &#39;5311449679&#39;)" onblur="this.href=&#39;https://grs.cafuc.edu.cn/index.htm&#39;"><img src="./5311448845.jpg" width="100" height="300" border="0" onmouseout="document.getElementById(&#39;full_div&#39;).style.display=&#39;none&#39;;document.getElementById(&#39;small_div&#39;).style.display=&#39;block&#39;"></a></div></div><div style="z-index: 100; background:#f0f0f0; margin:1px; clear:both; width:36px;height:20px; line-height:20px;text-align:center; cursor:pointer" onclick="closeAxvert()">关闭</div></div>
+
+
+</body></html>
